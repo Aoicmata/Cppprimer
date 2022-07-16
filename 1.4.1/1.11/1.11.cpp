@@ -1,4 +1,6 @@
 #include <iostream>
+
+//此时还没有学习if语句
 int main()
 {
         int sum = 0,val = 0;
@@ -6,12 +8,12 @@ int main()
         while (sum >= val)//  前数大于后数
         {
                 std::cout << sum << " ";
-                sum -= 1;//递减
+                sum -= 1;
         }
         while (sum <= val)//  前数小于后数
         {
-                std::cout << sum << " ";
-                sum += 1;//递加
+                std::cout << val << " ";
+                val -= 1;
         }
         std::cout << std::endl;
         return 0;
